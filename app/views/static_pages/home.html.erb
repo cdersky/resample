@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= full_title(yield(:title)) %></title>
-  </head>
-  <body>
-    <h1>Sample App</h1>
-    <p>
-      This is the home page with a
-      <a href="https://www.wikipedia.org/">link to wikipedia</a>.
-    </p>
-  </body>
-</html>
+<div class="center jumbotron">
+  <h1>Welcome</h1>
+  <h2>This is the home page for the sample app</h2>
+  <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
+  <%= link_to image_submit_tag("rails.png", alt: "Rails logo", width: "200"), "https://google.com/" %>
+</div>
