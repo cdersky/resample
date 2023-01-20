@@ -18,7 +18,7 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     # assert_equal full_title("Help"), "Sample App"
   end
 
-  test "full title helper" do
+  test "#signup_path" do
     get signup_path
     # assert_equal full_title, "Sample App"
   end
