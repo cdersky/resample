@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/help', to: 'static_pages#help'
   get '/home', to:'static_pages#home'
   root 'static_pages#home'
+  resources :users
 end
